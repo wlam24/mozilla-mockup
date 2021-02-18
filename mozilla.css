@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+    padding: 0;
+    margin-top: -20px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.42857143;
+}
+
+.navbar {
+    padding-top: 1.5rem;
+}
+
+.css-header {
+    background-color: #D93A33;
+    height: 70px;
+}
+.moz-img {
+    height: inherit;
+    padding: 24px 0px 3px 36px;
+}
+
+.header-list {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    display: inline-block;
+    margin: auto 0;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 100;
+    border-right: 1px solid #fff;
+    padding: 0 15px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.donate {
+    border: none;
+}
+
+.download {
+    border: none;
+}
+
+.download-moz {
+    background-color: #4CAF50;
+    line-height: 50px;
+    display: inline-block;
+    border: none;
+}
+
+.quote1, .quote2 {
+    font-family: 'Architects Daughter', cursive;
+    color: #2762A9;
+    text-align: center;
+    width: 912px;
+}
+
+.quote1 {
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.quote2 {
+    font-size: 2.6em;
+    line-height: 1.5em;
+} 
+.statement {
+    background-image: url("images/background1.png");
+    background-size: cover;
+    padding: 0 15px 296px 15px;
+}
+
+.quote1-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 119px;
+}
+
+.quote2-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 176px;
+}
+
+h3, .working {
+    text-align: center;
+}
+
+.impact h3, .our {
+    color: #56565A;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.working {
+    color: #75565A;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 1em 2em;
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.m, .innovations {
+    padding: 2.5em 0;
+}
+
+.center {
+    padding-top: 20px;
+}
+
+.m-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.m-img {
+    width: 30px;
+}
+
+.center-m h3 {
+    color: #56565A;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.links {
+    color: #00A7E0;
+    text-decoration: underline;
+    font-weight: 400;
+    border: none;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.innovations {
+    background-color: #008B89;
+    color: #ffff;
+}
+
+.working, .text-center {
+    font-weight: 400;
+    font-size: 1.25em;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.vr-container {
+    display: flex;
+    justify-content: center;
+}
+
+.vr, .m-logo img {
+    height: 200px;
+}
+
+.our {
+    color: #ffff;
+}
+
+.text-center {
+    color:  #fff;
+}
+
+.tools-list, .gaming-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.inno-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.forest-container {
+    background-image: url("images/background2.png");
+    background-size: cover;
+    background-position: center;
+    clear: both;
+    height: 725px;
+    position: relative;
+}
+
+h5 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.browse {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.mozilla-world {
+    width: 130px;
+}
+
+.inside-forest {
+    text-align: center;
+    padding: 60px 15px;
+    height: inherit;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.inside-forest2 {
+    position: absolute;
+    bottom: 20px;
+}
+
+.inside-forest2 h5:last-child {
+    text-decoration: underline;
+    padding-top: 1em;
+}
+
+.information {
+    background-color: #F5F5F5;
+    text-align: center;
+    color: #484848;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+}
+
+.information img {
+    height: 95px;
+}
+
+.information p {
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.information h3 {
+    margin: 6px 0;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 15px;
+    gap: 30px;
+}
+
+.add,.careers,.help {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sign-up {
+    background-color: #D93A33;
+    color: #fff;
+    padding: 1.75em 0;
+}
+
+.love-the-web {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.love-img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.love-img-container img {
+    height: 95px;
+}
+
+.love-text-container {
+    display: grid;
+    width: 232px;
+    position: relative;
+    left: 10px;
+}
+
+.love-text-container h3 {
+    font-size: 2.04em;
+    font-style: italic;
+    font-weight: 700;
+    margin: 6px 0;
+    margin: 20px 0 0 0;
+}
+
+.love-text-container p {
+    font-size: 1.25em;
+    margin: 0 0 10px 0;
+}
+
+.email {
+    width: 370px;
+    margin: 0 30px;
+}
+
+.email .text {
+    border-radius: 3px;
+    padding-left: 20px;
+    font-size: 1.25em;
+    color: #A9A9A9;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.email .submit {
+    border: 2px solid #fff;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1.5em;
+    padding: .3em 0;
+    margin-top: .75em;
+    margin-bottom: .25em;
+    border-radius: 3px;
+    color: white;
+}
+
+.email p {
+    text-align: left;
+}
+
+footer {
+    background-color: #666;
+    padding: 3.5em 0;
+}
+
+.moz-footer a{
+    color: #2FC7D3;
+}
+
+.foot1 {
+    max-width: 265px;
+}
+
+.foot1 img{
+    width: 100px;
+}
+
+.foot1 img, .foot1 p {
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
+
+.foot1 p {
+    margin-top: .75em;
+    line-height: 1.43;
+}
+
+.moz-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container .donate-list{
+    padding: 15px 0;
+}
+
+.footer-list {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.moz-footer .donate-list {
+    padding-bottom: 1.5em;
+}
+
+.moz-footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+.moz-footer li {
+    display: inline-block;
+}
+
+.moz-footer a {
+    padding: 0;
+    border: none;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.moz-footer a:hover {
+    text-decoration: underline;
+}
+
+footer .white-dot {
+        color: #EDEDED;
+}
+
+form {
+    padding-top: 1.5em;
+}
+
+form select {
+    width: 200px;
+    height: 30px;
+    background-color: #f8f8f8;
+    font-size: 1.25em;
+}
+
+/* ---------------------------------------------------- */
+
+.navbar {
+    background-color: #D93A33;
+    position: relative;
+}
+
+.navbar-brand {
+    position: absolute;
+    right: 40%;
+    top: 20px;
+}
+.navbar-brand > img {
+    height: inherit;
+    padding: 3px;
+}
+
+.moz-logo {
+    height: 33px;
+    position: absolute;
+    margin-left: 43%;
+    top: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link.download,
+.navbar-light .navbar-nav .nav-link.donate,
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.download {
+    background:#4CAF50;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.navbar-nav .nav-link {
+    padding: .5rem 14px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ddd;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-toggler:hover {
+    background-color: #ddd;
+}
+
+@media only screen and (max-width: 1000px){
+    .quote1-box {
+        position: relative;
+        top: 156px;
+    }
+    .quote1 {
+        font-size: 2.5em;
+    }
+    .quote2 {
+        font-size: 1.2em;
+    }
+    .inside-forest2 h5 {
+        font-size: 1.5em;
+    }
+    .add, .careers, .help{
+        max-width: 425px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        display: block;
+    }
+    .grid li {
+        text-align: center;
+    }
+    .tools-list img, .gaming-list img {
+        display: none;
+    }
+    .info {
+    display: block;
+    }
+    .love-the-web {
+        display: block;
+        padding: 0 15px;
+    }
+    .love-img-container, .love-text-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .love-text-container {
+        display: grid;
+    }
+    .love-text-container p {
+        margin: 10px 0;
+    }
+    .email {
+        width: 100%;
+        padding: 0 15px;
+        position: static;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .moz-footer {
+        max-width: 351px;
+        padding: 0 15px;
+    }
+    .moz-footer {
+        display: block;
+    }
+    .moz-footer .donate-list {
+        padding: 15px 0;
+    }
+    .footer-list {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .moz-logo {
+    position: relative;
+    left: 20px;
+    margin: 0;
+    top: 0;
+    }
+    .navbar-collapse {
+        width: auto;
+    }
+    .donate {
+        border: none;
+    }
+    .navbar-nav {
+        gap: 7px;
+    }
+    .navbar {
+    position: relative;
+    padding: 0;
+    top: 20px;
+    }
+    .nav-link:not(.download) {
+    margin: 8px 0;
+    padding: 0 14px;
+    }
+}
+
